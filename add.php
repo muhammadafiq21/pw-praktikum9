@@ -32,10 +32,18 @@ if (isset($_POST["submit"])) {
     <title>Praktikum 9</title>
 
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@700&display=swap');
 
-<body style="background-size: cover;">
+    h1 {
+        text-shadow: 2px 2px 5px green;
+        font-family: 'Open Sans Condensed', sans-serif;
+    }
+</style>
+
+<body style="">
     <div class="flex">
-        <h2>Tambah Data Karyawan</h2>
+        <h1>Tambah Data Karyawan</h1>
 
         <form action="" method="post">
             <br>

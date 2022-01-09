@@ -57,7 +57,7 @@ $karyawan = query("SELECT * FROM karyawan");
                         <td><?= $item['gender']; ?></td>
                         <td><?= $item['position']; ?></td>
                         <td><?= $item['status']; ?></td>
-                        <td><a href="delete.php?id=<?= $item['id']; ?>" class="btn btn-danger" onclick="return confirm('Apakah yakin akan menghapus data ?')">Delete</a></td>
+                        <td><a href="delete.php?id=<?= $item['id']; ?>" class="btn btn-danger" onclick="return confirm('Apakah anda yakin akan menghapus data ?')">Delete</a></td>
                     </tr>
                 <?php endforeach ?>
             </table>
@@ -65,7 +65,7 @@ $karyawan = query("SELECT * FROM karyawan");
 
         </div>
     </div>
-    </div>
+
 </body>
 
 </html>
