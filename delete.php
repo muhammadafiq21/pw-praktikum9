@@ -11,10 +11,5 @@ if (hapus($id) > 0) {
         </script>
     ";
 } else {
-    echo "
-        <script>
-            alert('Karyawan dengan Id -$id  gagal dihapus!');
-            document.location.href = 'index.php';
-        </script>
-    ";
+    echo " ";
 }

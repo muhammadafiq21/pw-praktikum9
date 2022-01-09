@@ -9,13 +9,9 @@ if (isset($_POST["submit"])) {
             document.location.href = 'index.php';
         </script>
     ";
+        //  form ini required
     } else {
-        echo "
-        <script>
-            alert('Id karyawan gagal ditambahkan');
-            document.location.href = 'index.php';
-        </script>
-    ";
+        echo " ";
     }
 }
 ?>
@@ -50,15 +46,15 @@ if (isset($_POST["submit"])) {
         <form action="" method="post">
             <br>
             <label for="name" style="margin-right: 50%;">Name</label><br>
-            <input type="text" name="name" id="name" placeholder="Masukkan name" style="margin-top: 5px; padding-right: 50px;">
+            <input type="text" name="name" id="name" placeholder="Masukkan name" required style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
             <label for="email" style="margin-right: 50%;">Email</label><br>
-            <input type="text" name="email" id="email" placeholder="Masukkan email" style="margin-top: 5px; padding-right: 50px;">
+            <input type="text" name="email" id="email" placeholder="Masukkan email" required style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
             <label for="address" style="margin-right: 47%;">Address</label><br>
-            <input type="text" name="address" id="address" placeholder="Masukkan address" style="margin-top: 5px; padding-right: 50px;">
+            <input type="text" name="address" id="address" placeholder="Masukkan address" required style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
             <label for="gender" style="margin-right: 49%;">Gender</label><br>
@@ -69,7 +65,7 @@ if (isset($_POST["submit"])) {
             <br><br>
 
             <label for="position" style="margin-right: 47%;">Position</label><br>
-            <input type="text" name="position" id="position" placeholder="Masukkan position" style="margin-top: 5px; padding-right: 50px;">
+            <input type="text" name="position" id="position" placeholder="Masukkan position" required style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
             <label for="status" style="margin-right: 50%;">Status</label><br>
