@@ -16,6 +16,13 @@ $karyawan = query("SELECT * FROM karyawan");
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Praktikum 9</title>
 </head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Moon+Dance&family=Roboto+Slab&display=swap');
+
+    h2 {
+        font-family: 'Roboto Slab', serif;
+    }
+</style>
 
 <body>
     <div class="d-flex flex-column justify-content-center w-100 h-100">
