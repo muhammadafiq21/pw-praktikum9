@@ -33,7 +33,7 @@ if (isset($_POST["submit"])) {
 
 </head>
 
-<body style="background-size: cover;">
+<body style="">
     <div class="flex">
         <h2>Tambah Data Karyawan</h2>
 
