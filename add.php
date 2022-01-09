@@ -33,13 +33,13 @@ if (isset($_POST["submit"])) {
 
 </head>
 
-<body style="">
+<body style="background-size: cover;">
     <div class="flex">
         <h2>Tambah Data Karyawan</h2>
 
         <form action="" method="post">
             <br>
-            <label for="name" style="margin-right: 48%;">Name</label><br>
+            <label for="name" style="margin-right: 50%;">Name</label><br>
             <input type="text" name="name" id="name" placeholder="Masukkan name" style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
@@ -47,18 +47,18 @@ if (isset($_POST["submit"])) {
             <input type="text" name="email" id="email" placeholder="Masukkan email" style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
-            <label for="address" style="margin-right: 44%;">Address</label><br>
+            <label for="address" style="margin-right: 47%;">Address</label><br>
             <input type="text" name="address" id="address" placeholder="Masukkan address" style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
-            <label for="gender" style="margin-right: 45%;">Gender</label><br>
+            <label for="gender" style="margin-right: 49%;">Gender</label><br>
             <select name="gender" id="gender" style="padding-right: 152px;">
                 <option value="Male">Male</option>
                 <option value="Female">Female</option>
             </select>
             <br><br>
 
-            <label for="position" style="margin-right: 45%;">Position</label><br>
+            <label for="position" style="margin-right: 47%;">Position</label><br>
             <input type="text" name="position" id="position" placeholder="Masukkan position" style="margin-top: 5px; padding-right: 50px;">
             <br><br>
 
