@@ -5,14 +5,14 @@ if (isset($_POST["submit"])) {
     if (tambah($_POST) > 0) {
         echo "
         <script>
-            alert('Data karyawan berhasil ditambahkan');
+            alert('id karyawan berhasil ditambahkan');
             document.location.href = 'index.php';
         </script>
     ";
     } else {
         echo "
         <script>
-            alert('Data karyawan gagal ditambahkan');
+            alert('Id karyawan gagal ditambahkan');
             document.location.href = 'index.php';
         </script>
     ";
@@ -41,7 +41,9 @@ if (isset($_POST["submit"])) {
     }
 </style>
 
-<body style="">
+<!-- Reaponsive Background -->
+
+<body>
     <div class="flex">
         <h1>Tambah Data Karyawan</h1>
 

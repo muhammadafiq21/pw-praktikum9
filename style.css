@@ -20,6 +20,6 @@ body {
 .flex {
   text-align: center;
   margin: 10px 35% 10px 35%;
-  background: hsl(158, 39%, 90%);
+  background: hsl(0, 0%, 100%);
   padding: 70px 0px;
 }
