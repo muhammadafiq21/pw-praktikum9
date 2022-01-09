@@ -10,8 +10,6 @@ if (isset($_POST["submit"])) {
         </script>
     ";
         //  form ini required
-    } else {
-        echo " ";
     }
 }
 ?>
